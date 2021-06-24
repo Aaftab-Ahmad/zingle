@@ -1,0 +1,439 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="icon" href="images/logo.png" />
+    <title>Zingle Star</title>
+    <style>
+        nav {
+            opacity: 0.6;
+            height: 100px;
+            padding: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            width: 100%;
+        }
+
+        ul {
+            margin-left: 10% !important;
+        }
+
+        nav:hover {
+            opacity: 1;
+        }
+
+        #imgdiv {
+            background-image: url('images/lap.jpg');
+            height: 800px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 0;
+            box-sizing:content-box;
+        }
+
+        #imgcontent {
+            color: white;
+            margin-top: 10%;
+            text-align: center;
+        }
+
+        .mainhead1 {
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .head3 {
+            font-size: 30px;
+            font-weight: bold;
+            padding:4px;
+            
+        }
+        .head3:hover,.head3:active{
+            background-color:black;
+            color:white;
+        }
+        #btnex {
+            border-radius: 10px;
+        }
+
+            #btnex:hover {
+                background-color: black;
+                color: white;
+            }
+            .content{
+                margin-top:40px;
+            }
+            .mb{
+                margin-bottom:50px;
+            }
+            
+            #getstarted{
+                margin-top:100px;
+                background-color:darkgray;
+                padding:50px;
+                height:250px;
+                box-sizing:content-box;
+               
+            }
+            .btngrp{
+                display:flex;
+                justify-content:space-between;
+                margin-top:40px;
+            }
+            .butn1{
+                font-weight:bold;
+                border-radius:10px;
+            }
+            .butn1:hover{
+                color:white;
+                background-color:black;
+            }
+            .head1{
+                font-size:150px;
+                float:left;
+                font-weight:bold;
+            }
+        .indiv {
+            font-weight: bold;
+            padding-top: 30px;
+            font-size: 20px;
+        }
+        .headmain{
+            padding-left:20px;
+            font-size:45px;
+            font-weight:bold;
+
+        }
+        #learntool{
+            margin-top:100px;
+            background-color:green;
+            padding:30px;
+        }
+        a, a:hover {
+            text-decoration: none;
+        }
+        .sicon:hover{
+            color:gray !important;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container-fluid " id="imgdiv">
+        <nav class="navbar navbar-inverse navbar-sm">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <img src="images/logo.png" class="navbar-brand" />
+                    <a class="navbar-brand" href="index.html"><strong>Zingle Star</strong></a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="login.html">Register / Login</a></li>
+                    <li><a href="#contactus">Contact us</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="input-group">
+                        <input type="text" class="form-control" />
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
+        <div id="imgcontent" class="container">
+            <h1 class=" text-center mainhead1">#1 ZINGLE STAR COMPANY FOR SMALL BUSINESS</h1>
+            <h4 class="mb"><strong>Zingle Star connects small businesses with customers and has a great time doing it.</strong></h4>
+            <button id="btnex" class="btn btn-lg btn-default">Explore More</button>
+        </div>
+
+    </div>
+
+    <!--collapse-->
+    <div class="container content">
+        <h1 class="text-center mb mainhead1" >DIGITAL MARKETING SERVICES</h1>
+        <h3 class="text-center mb"><strong>A few areas we specialize in.</strong></h3>
+        <div class="col-sm-4 " id="collapse-list">
+            <div class="panel-group" id="accordion">
+                <div class="panel ">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                            <h3 class="panel-title head3">
+                                SEO (Search Engine Optimization)
+
+                            </h3>
+                        </a>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <strong>
+                                Our SEO services follow a three step process. First, we develop a SEO strategy. Second, we build the foundation to support the SEO strategy. Then, we build backlinks and create keyword driven content to improve your search engine rankings.
+
+                                How do you know this approach works? Just look at our own website. We rank on the first page of Google for the term “digital marketing company.” With 15,000+ agencies who offer SEO services, Google feels that we’re among the top 10.
+
+                                How did we get to the first page? The same way we’ve gotten our clients to the first page: through strategy, build-outs, and execution.
+
+                                Learn more about our Search Engine Optimization services for small business.
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel ">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                            <h3 class="panel-title head3">
+                                Digital PR
+
+                            </h3>
+                        </a>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <strong>
+                                Our Digital PR services help optimize a brand’s digital footprint.
+
+                                We drive brand awareness, secure strategic online placements, forge relationships with media influencers, increase brand mentions, and achieve monthly backlink goals.
+
+                                All to give small businesses and small teams more visibility online.
+
+                                Learn more about our Digital PR services.
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel ">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                            <h3 class="panel-title head3">
+                                Technical SEO
+
+                            </h3>
+                        </a>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <strong>
+                                Technical SEO includes the management of elements like Crawling, Indexing, Status Codes, Page Speed, Content, Site Structure, Mobile Usability, SSL, Structured Data, Migrations, and Rendering for websites.
+
+                                In other words, our Technical SEO services help search engine spiders crawl and index your site more effectively.
+
+                                Learn more about our Technical SEO services.
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel ">
+                    <div class="panel-heading">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                            <h3 class="panel-title head3">
+                                Local SEO
+
+                            </h3>
+                        </a>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <strong>
+                                Our monthly Local SEO management service brings small businesses to life on SERPs. Companies trust us to manage all aspects of their Local SEO. From optimizing their Google My Business profile to building citations to generating reviews, we do it all.
+
+                                With Local SEO you’ll see that your business will appear on relevant local searches much more frequently. You will begin to connect with local customers more often. And after some time and cultivation, you’ll have a reliable lead generation asset outside of your website that you’ll be able to utilize for years to come.
+
+                                Learn more about our Local SEO services for small business.
+                            </strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-8">
+            <iframe width="720" height="445" src="https://www.youtube.com/embed/tgbNymZ7vqY?"></iframe>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center " id="getstarted">
+        <h1 class="text-center mainhead1">READY TO GET STARTED?</h1>
+        <div class="container btngrp">
+            <button class="btn btn-success btn-lg butn1 ">SCHEDULE A CONSULTATION</button>
+            <button class="btn btn-success btn-lg butn1 ">OR CALL US: (480) 550-6336</button>
+        </div>
+    </div>
+
+    <!-----how we doing-->
+    <div class="container" >
+        <div class="col-sm-4">
+            <h1 class="mb headmain">Strategize</h1>
+            <div>
+                <h2 class="head1 col-sm-4">1</h2>
+                <div class="col-sm-8 indiv">First, we develop a marketing plan based on your business’ challenges and goals.</div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="mb headmain">Build</h1>
+            <div>
+            <h1 class="head1 col-sm-4">2</h1>
+            <div class="col-sm-8 indiv">We take this insight to build the foundation for your digital marketing efforts.</div>
+                </div>
+        </div>
+        <div class="col-sm-4">
+            <h1 class="mb headmain">Deliver</h1>
+            <div>
+                <h1 class="head1 col-sm-4">3</h1>
+                <div class="col-sm-8 indiv">Now that key online assets are built, we bring your brand to life online.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center " id="learntool">
+        <div class="container" style="padding:20px;">
+            <h1 style="margin-bottom:20px;color:white;">WHY IS SEO SO POWERFUL FOR SMALL BUSINESS MARKETING?</h1>
+            <h4 style="margin-bottom:20px;color:white;">Learn about how this long-term, sustainable solution works.</h4>
+            <button class="btn btn-lg btn-danger butn1">Read More</button>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="margin-top:100px;">
+        <div class="col-sm-4" >
+            <div class="media" >
+                <a href="#">
+                    <div class="media-top">
+                        <img src="images/img2.jpg" class="media-object" style="width:100%;">
+                    </div>
+                    <div class="media-body text-center">
+                        <h3 class="media-heading " style="margin-top:30px;">Small Business SEO Guide</h3>
+                        <h4 class="mb"> How do smaller companies win market share online? Small business SEO lets anyone compete for a place on Google’s most coveted first page. </h4>
+                        <input type="button"  class="btn btn-lg btn-success butn1"value="LEARN MORE"/>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+            <div class="media">
+                <a href="#">
+                    <div class="media-top">
+                        <img src="images/img11.jpg" class="media-object" style="width:100%;">
+                    </div>
+                    <div class="media-body text-center">
+                        <h3 class="media-heading " style="margin-top:30px;"> Small Business SEO Wins </h3>
+                        <h4 class="mb"> Keywords that our clients rank in the top 10 organic search results. This is a small sampling of our SEO “wins” and the successes that are in progress. </h4>
+                        <input type="button" class="btn btn-lg btn-success butn1" value="LEARN MORE" />
+                    </div>
+                </a>
+        </div>
+            </div>
+
+        <div class="col-sm-4">
+            <div class="media">
+                <a href="#">
+                    <div class="media-top">
+                        <img src="images/img3.jpg" class="media-object" style="width:100%">
+                    </div>
+                    <div class="media-body text-center">
+                        <h3 class="media-heading " style="margin-top:30px;">  Business Industries & Verticals  </h3>
+                        <h4 class="mb">  Some agencies focus on one or two industries. Markitors? We are more diverse. These are some of the industries that we have had success in with SEO. </h4>
+                        <input type="button" class="btn btn-lg btn-success butn1" value="LEARN MORE" />
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--------What our clients-->
+    <div class="container-fluid" style="margin-top:100px;background-color:lightgray;padding-bottom:70px;">
+        <div class="container text-center" style="padding-top:100px;">
+            <h1 class="mainhead1">WHAT OUR CLIENTS SAY</h1>
+            <div id="client1" style="margin-top:50px;">
+                <div class="media">
+                    <div class="media-left">
+                        <img src="images/client01.jpg" class="media-object" style="width:50%;height:250px;" />
+                    </div>
+                    <div class="media-body text-center" style="padding-top:50px; width:40%;">
+                        <h3 class="mb media-heading">Zingle Star has grown our website from 0 visits to just over 60,000 monthly visits. Their digital marketing services are very effective in growing your brand online.</h3>
+                        <h3 class="media-heading"><strong>-Brian Mohr, Co-founder of Y Scouts</strong></h3>
+                    </div>
+                </div>
+            </div>
+            <div id="client2" style="margin-top:80px;">
+                <div class="media" >
+                    <div class="media-body text-center" style="padding-top:50px; width:40%;">
+                        <h3 class="mb media-heading">Trust and transparency aren’t necessarily words associated with an SEO company, but they are the first words I’d use to describe working with Zingle Star.</h3>
+                        <h3 class="media-heading"><strong>— Pete Newstrom, Arrow Lift Stair Lifts</strong></h3>
+                    </div>
+                    <div class="media-right">
+                        <img src="images/client2.jpg" class="media-object" style="width:50%;float:right" />
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container text-center " style="padding:150px 0; background-color:white;">
+        <div class="col-sm-12">
+        <h1 class="mainhead1 mb">OUR FOUNDING TEAM</h1>
+        <div class="media">
+            <div class="media-body text-center" style="padding-top:50px; width:50%;">
+                <h3 class="mb media-heading" style="word-spacing:2px"><strong>Zingle Star is a digital marketing startup located in the heart of Old Town Scottsdale. We connect small businesses with customers…and have a great time doing it. If you Google “digital marketing company,” you’ll find Markitors on the 1st page of search results. We know our stuff, and nothing makes us happier than moving small businesses forward.</strong></h3>
+                <button class="btn btn-lg btn-success butn1">MEET THE TEAM</button>
+            </div>
+            <div class="media-right">
+                <img src="images/ofc.jpg" class="media-object" style="width:100%;float:right" />
+            </div>
+
+        </div>
+</div>
+
+    </div>
+
+    <!---Contact us-->
+    <footer class="container-fluid" style=" background-color:black;color:white;padding-top:100px;padding-bottom:100px;" id="contactus">
+        <div class="col-sm-2">
+
+        </div>
+        <div class="col-sm-10">
+            <div class="col-sm-3">
+                <h4>© 2012 – 2021 Zingle Star</h4>
+                <h5>All Rights Reserved</h5>
+                <a href="#" style="color:darkgreen;" class="sicon"><h5>Privacy Policy</h5></a>
+            </div>
+            <div class="col-sm-3">
+                <h4>GIVE US A FOLLOW</h4>
+                <div>
+                    <a href="#" style="margin-right:10px; color:darkgreen;" class="sicon"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                    <a href="#" style="margin-right:10px; color:darkgreen;" class="sicon"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    <a href="#" style="margin-right:10px; color:darkgreen;" class="sicon"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    <a href="#" style="margin-right:10px; color:darkgreen;" class="sicon"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <h4>GET IN TOUCH</h4>
+                <div style="color:darkgreen;">
+                    <a href="#" style="margin-right:10px; color:darkgreen;" class="sicon"><i class="fa fa-phone" aria-hidden="true"></i><strong>  9411443349</strong></a>
+                    <h5><a href="#" style="margin-right:10px; color:darkgreen;" class="sicon"><i class="fa fa-envelope" aria-hidden="true"></i><strong> www.webtis.in</strong></a></h5>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <h4>LOCATION</h4>
+                <div>
+                    <h5><a href="#" style="color:darkgreen;"class="sicon"><strong>Lucknow</strong></a></h5>
+                    <h5><a href="#" style="color:darkgreen;" class="sicon"><strong>Delhi</strong></a></h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-2">
+
+        </div>
+    </footer>
+
+</body>
+</html>
+
+
